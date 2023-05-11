@@ -137,7 +137,7 @@ void draw() {
   pushMatrix();
   translate(playerX, playerY);
   rotate(playerAngle);
-  image(playerImage, -playerSize/2, -playerSize/2, playerSize, playerSize);
+  image(playerImage, -playerSize/2, -playerSize/2, playerSize*1.5, playerSize);
   popMatrix();
   //fill(80, 80, 80); 
   //ellipse(playerX - playerSize/2, playerY - playerSize/2, playerSize, playerSize);
